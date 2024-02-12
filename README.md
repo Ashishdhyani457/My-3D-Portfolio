@@ -8,9 +8,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # My-3D-Portfolio
 commands used
-npm create vite@latest ./ -- --template react
-npm install - D tailwindcss
-npx tailwindcss init 
-npm install --legacy-peer-deps@react-three/fiber @react-three/drei math react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom 
-npm install --legacy-peer-deps - D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm create vite@latest ./ -- --template react.
+
+npm install - D tailwindcss.
+
+npx tailwindcss init.
+
+npm install --legacy-peer-deps@react-three/fiber @react-three/drei math react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom .
+
+
+npm install --legacy-peer-deps - D tailwindcss postcss autoprefixer.
+
+
+npx tailwindcss init -p.
