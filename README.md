@@ -21,3 +21,5 @@ npm install --legacy-peer-deps - D tailwindcss postcss autoprefixer.
 
 
 npx tailwindcss init -p.
+ 
+ we can use sketchfab dowloadable to download more 3d models like this desktop pc.
