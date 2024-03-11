@@ -42,8 +42,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        i'm a skilled software develoer with experience in Typescript and
-        Javascript, and expertise in frameworks like React, Nodejs and MongoDB.
+        i'm a skilled software develoer with a experience of 2 years in Wipro and 
+         have expertise in frameworks like React, Nodejs and MongoDB.
         i am a quick learner and collaborate closely with clients to create
         efficient, scalable, and user-frieldly solution that solve real-world
         problems. Let's work together to bring your ideas to life.

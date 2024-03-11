@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wipro from "./company/Wipro.png"
+import mogi from "./company/mogi.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  wipro,
+  mogi
 };

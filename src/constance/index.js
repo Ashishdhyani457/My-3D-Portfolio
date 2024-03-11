@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    wipro,
+    mogi
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +48,17 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Front End Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Developer(Beginner)",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -116,29 +118,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "MOGI IO",
+      icon: mogi,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - MAY 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created view ticket component where users can see the existing Ticket details",
+        "Created Logs component where users can see the Tickets past history",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "React js Developer",
+      company_name: "WIPRO",
+      icon: wipro,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating with cross-functional teams, managers, and other developers to create high-quality products.",
+      "  Created portal for slack Admins to perform various tasks in channels",
+      "Worked with slack Apis to integrate slack bot to perform desired tasks"
+        
       ],
     },
     {
