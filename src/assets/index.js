@@ -31,6 +31,9 @@ import mogi from "./company/mogi.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import youtube from "./youtube.png";
+import food from "./food.png";
+import newsapp from "./newsapp.png";
 
 
 export {
@@ -63,5 +66,8 @@ export {
   jobit,
   tripguide,
   wipro,
-  mogi
+  mogi,
+  youtube,
+  food,
+  newsapp
 };

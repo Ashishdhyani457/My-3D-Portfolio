@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  hosted_url,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", 0.5 * index, 0.75)}>
@@ -34,16 +35,19 @@ const ProjectCard = ({
 
         <div className="absolute inset-0 flex justify-end my-3 card-img_hover">
           <div
-            onClick={() => window.open(source_code_link, "_blank")}
+          
+            onClick={() =>  window.open(hosted_url, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
-            <img
+            LIVE
+            {/* <img
               src={github}
               alt="github"
               className="w-1/2 h=1/2"
               object-contain
-            />
+            /> */}
           </div>
+
           <div
             onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -83,20 +87,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Web-based platform that allows users to search, book, and manage car
-          rentals from various providers, providing a convenient and efficient
-          solution for transportation needs. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Mattis nunc sed blandit libero volutpat
-          sed cras ornare. Est pellentesque elit ullamcorper dignissim cras
-          tincidunt lobortis feugiat vivamus. Cum sociis natoque penatibus et
-          magnis dis parturient. Sed vulputate mi sit amet mauris commodo quis
-          imperdiet massa. Sodales neque sodales ut etiam sit amet nisl. Eu
-          lobortis elementum nibh tellus molestie nunc. Vitae suscipit tellus
-          mauris a. Maecenas volutpat blandit aliquam etiam erat velit
-          scelerisque. Vestibulum sed arcu non odio euismod lacinia. In metus
-          vulputate eu scelerisque felis imperdiet proin. Praesent elementum
-          facilisis leo vel. Elementum curabitur vitae nunc sed vel
+          I developed a diverse range of applications using React.js, including a YouTube clone, a food ordering app, and a news aggregator. Leveraging React's component-based architecture, each app offers a seamless user experience with intuitive navigation and responsive design. From video streaming and interactive menus to real-time news updates, these applications showcase React's versatility in handling various functionalities. Through integration with APIs and meticulous attention to detail, each project ensures robust performance and user engagement. This multi-faceted endeavor demonstrates React.js's adaptability in crafting sophisticated and feature-rich web solutions across different domains.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-10">
