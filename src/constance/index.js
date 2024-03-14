@@ -120,18 +120,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Software Developer Intern",
-    company_name: "MOGI IO",
-    icon: mogi,
-    iconBg: "#383E56",
-    date: "March 2022 - MAY 2022",
-    points: [
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Created view ticket component where users can see the existing Ticket details",
-      "Created Logs component where users can see the Tickets past history",
-    ],
-  },
+
   {
     title: "React js Developer",
     company_name: "WIPRO",
@@ -145,6 +134,19 @@ const experiences = [
       "Worked with slack Apis to integrate slack bot to perform desired tasks",
     ],
   },
+  {
+    title: "Software Developer Intern",
+    company_name: "MOGI IO",
+    icon: mogi,
+    iconBg: "#383E56",
+    date: "March 2022 - MAY 2022",
+    points: [
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Created view ticket component where users can see the existing Ticket details",
+      "Created Logs component where users can see the Tickets past history",
+    ],
+  },
+  
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -180,23 +182,23 @@ const testimonials = [
     name: "Harshit",
     designation: "SDE",
     company: "GOOGLE",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/58.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Ashish does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Krishna",
+    designation: "SDE",
+    company: "Info Edge",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "Ashish's proficiency in React ensured our app's success, showcasing his talent for crafting seamless user experiences.",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "SDE",
+    designation: "Shubham",
+    company: "Cognizant",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
